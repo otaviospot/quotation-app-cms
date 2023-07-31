@@ -59,6 +59,11 @@
     },
     "stock": {
       "type": "integer"
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }
