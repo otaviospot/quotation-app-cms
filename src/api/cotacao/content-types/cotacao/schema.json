@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cotacoes",
+  "info": {
+    "singularName": "cotacao",
+    "pluralName": "cotacoes",
+    "displayName": "Cotações",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "cotacao_info": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
